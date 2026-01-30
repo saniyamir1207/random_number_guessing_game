@@ -2,7 +2,6 @@
 
 ![Language](https://img.shields.io/badge/language-C-blue.svg)
 ![Status](https://img.shields.io/badge/status-Complete-green.svg)
-![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)
 
 ## 📖 Overview
 
@@ -70,6 +69,24 @@ You need a C compiler installed on your system.
 4.  Use the feedback hints to narrow down your next guess.
 5.  Try to find the number in as few attempts as possible!
 
+# 🧠 Technical Highlights
+This project focuses on efficient memory usage and logical flow. Key implementation details include:
+
+Standard Library Usage: Utilizes <stdlib.h> for memory/randomization and <time.h> for seeding.
+
+Loops & Conditionals: Implements do-while loops to manage game state and if-else blocks for game logic.
+
+Sanitization: Checks scanf return values to prevent infinite loops on invalid character inputs.
+
+# 🔜 Future Improvements
+Add difficulty levels (Easy: 1-50, Hard: 1-1000).
+
+Implement a "Best Score" high-score system using file handling (FILE *).
+
+Add a limited number of attempts (lives) to increase difficulty.
+
+**Created by Saniya Mir**
+
 ### Example Output
 ```text
 Welcome to the Number Guessing Game!
@@ -83,21 +100,3 @@ Enter your guess: 75
 
 Enter your guess: 62
 > Correct! You won in 3 attempts.
-
-🧠 Technical Highlights
-This project focuses on efficient memory usage and logical flow. Key implementation details include:
-
-Standard Library Usage: Utilizes <stdlib.h> for memory/randomization and <time.h> for seeding.
-
-Loops & Conditionals: Implements do-while loops to manage game state and if-else blocks for game logic.
-
-Sanitization: Checks scanf return values to prevent infinite loops on invalid character inputs.
-
-🔜 Future Improvements
-Add difficulty levels (Easy: 1-50, Hard: 1-1000).
-
-Implement a "Best Score" high-score system using file handling (FILE *).
-
-Add a limited number of attempts (lives) to increase difficulty.
-
-Created by Saniya Mir
